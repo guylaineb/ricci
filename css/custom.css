@@ -82,6 +82,10 @@ a:focus{
 	font-weight: 400;
 }
 
+.logo h1 img{
+	max-width: 250px;
+}
+
 .logo p{
 	font-size: 14px;
 	color: #fff;
@@ -238,6 +242,10 @@ a:focus{
 		width: 100%;
 		min-height: 100%;
 	}
+
+	.logo h1 img{
+		max-width: 200px;
+	}
 }
 
 @media only screen and (max-width:480px){
@@ -267,6 +275,10 @@ a:focus{
 	
 	.new-btn{
 		height: 40px;
+	}
+
+	.logo h1 img{
+		max-width: 150px;
 	}
 }
 
